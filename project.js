@@ -549,7 +549,7 @@ console.log(`\n`);
 console.log(`-----5. User Profile-----`);
 //1. Create object with user object properties:
 
-/* add to Object */
+/* Option 1: add to Object */
 // const createUserProfileV2 = () => {
 //   let userProfileV2 = {};
 //   userProfileV2.user1 = user1;
@@ -558,7 +558,7 @@ console.log(`-----5. User Profile-----`);
 // };
 // console.log(createUserProfileV2());
 
-/* add to Array with console.table */
+/* Option 2: add to Array with console.table */
 let userProfile = [];
 const createUserProfile = () => {
   userProfile.push(user1);
